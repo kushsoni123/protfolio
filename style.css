@@ -1,0 +1,202 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(0, 0, 33);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 80px;
+    background-color: rgb(4, 4, 48);
+}
+
+nav ul {
+    justify-content: center;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 23px;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(153, 153, 226);
+    font-size: 1.04rem;
+    text-decoration: underline;
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+.firstsection {
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    margin: 80px 0;
+
+}
+
+.firstsection>div {
+    width: 30%;
+
+}
+
+.leftsection {
+    font-size: 2.5rem;
+}
+
+.rightsection img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 4px 12px rgba(87, 0, 250, 0.848);
+}
+
+.purple {
+    color: #9e5fd8;
+}
+
+#element {
+    color: #9e5fd8;
+
+}
+
+main hr {
+    border: 0;
+    background-color: #9c97f1;
+    height: 1.2px;
+    margin: 40px 84px;
+}
+
+.footer {
+    display: flex;
+
+}
+
+.secondsection {
+    padding: 2px 84px;
+    margin: auto;
+
+}
+
+.first {
+    display: inline-block;
+    padding: 12px 28px;
+    background-color: #8927e3;
+    border-radius: 40px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
+.first:hover {
+    box-shadow: 0 0 5px #9e5fd8,
+        0 0 25px #9e5fd8, 0 0 50px #9e5fd8,
+        0 0 100px #9e5fd8, 0 0 200px #9e5fd8;
+}
+
+.first a {
+    color: white;
+    text-decoration: none;
+    font-size: large;
+
+}
+
+h3 {
+    padding: 30px 16px;
+}
+
+.secondsection .btn {
+    padding: 12px;
+    background-color: #1e2167;
+    color: white;
+    border: 2px solid white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.skills {
+    display: inline-block;
+    padding: 12px 28px;
+    background-color: #8927e3;
+    border-radius: 40px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
+.skills:hover {
+    box-shadow: 0 0 5px #9e5fd8,
+        0 0 25px #9e5fd8, 0 0 50px #9e5fd8,
+        0 0 100px #9e5fd8, 0 0 200px #9e5fd8;
+}
+
+.skills a {
+    color: white;
+    text-decoration: none;
+    font-size: large;
+
+}
+
+.skill {
+    padding: 2px 84px;
+}
+
+.contanir {
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    margin: 80px 0;
+
+}
+
+.contani>div {
+    width: 30%;
+}
+
+.lang {
+    display: grid;
+    padding: 34px 12px;
+    font-size: 28px;
+}
+
+.pic img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 4px 12px rgba(87, 0, 250, 0.848);
+    float: right;
+}
+
+.project {
+    padding: 2px 84px;
+}
+h1{
+    padding: 30px 16px;
+
+}
+.project h3{
+    padding:  15px 133px;
+}
+.project h1{
+    padding: 12px 12px 1px;;
+}
