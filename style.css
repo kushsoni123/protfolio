@@ -85,11 +85,6 @@ main hr {
     margin: 40px 84px;
 }
 
-.footer {
-    display: flex;
-
-}
-
 .about-me {
     padding: 2px 84px;
     margin: auto;
@@ -131,6 +126,10 @@ h3 {
     border: 2px solid white;
     border-radius: 20px;
     cursor: pointer;
+}
+.btn a{
+    text-decoration: none;
+    color: white;
 }
 
 .skills {
