@@ -344,11 +344,10 @@ form textarea {
     padding-top: 8px;
 }
 
-/* // Small devices (landscape phones, 576px and up) */
-@media only screen and (max-width: 375px) {
- 
 
-    nav {
+
+@media (min-width: 375px) and (max-width: 768px) { 
+      nav {
 
         flex-direction: column;
         height: auto;
@@ -425,4 +424,4 @@ form textarea {
     main hr {
         margin: 20px;
     }
-}
+ }
