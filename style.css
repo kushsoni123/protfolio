@@ -355,9 +355,10 @@ form textarea {
     }
 
     nav ul {
-        flex-direction: column;
-        gap: 10px;
+                flex-direction: row;
+        float: left;
     }
+    
 
     .home,
     .contanir,
@@ -419,9 +420,10 @@ form textarea {
     .project h3 {
         padding: 15px 0;
         text-align: center;
+        font-size: 14px;
     }
 
     main hr {
         margin: 20px;
     }
- }
+}
