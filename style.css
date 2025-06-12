@@ -127,7 +127,8 @@ h3 {
     border-radius: 20px;
     cursor: pointer;
 }
-.btn a{
+
+.btn a {
     text-decoration: none;
     color: white;
 }
@@ -346,8 +347,8 @@ form textarea {
 
 
 
-@media (min-width: 375px) and (max-width: 768px) { 
-      nav {
+@media (min-width: 375px) and (max-width: 768px) {
+    nav {
 
         flex-direction: column;
         height: auto;
@@ -355,10 +356,12 @@ form textarea {
     }
 
     nav ul {
-                flex-direction: row;
+        flex-direction: row;
+        font-size: 10px;
         float: left;
     }
-    
+
+
 
     .home,
     .contanir,
@@ -416,6 +419,13 @@ form textarea {
         padding: 10px 20px;
         font-size: 1rem;
     }
+
+    .about-me h3 {
+        padding: 15px 0;
+        text-align: center;
+        font-size: 14px;
+    }
+
 
     .project h3 {
         padding: 15px 0;
